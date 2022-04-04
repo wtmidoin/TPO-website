@@ -1,0 +1,110 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 250%;
+}
+.uphead{
+    background: #49274A;
+    color:white;
+    font-weight: normal;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.mainhead{
+    background: #5e315f;
+    /* width: auto; */
+    /* height:5%;
+    padding:8% 5%; */
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoimage{
+    height: 65%;
+    width: 65%;
+    padding: 2% 2%;
+    display: flex;
+    justify-self: center;
+    justify-items: right;
+}
+.headbody{
+    /* padding:2% 2%; */
+    height:70%;
+    width: auto;
+
+    display:flex;
+    flex-direction: column;
+    justify-items: left;
+}
+.head-content2{
+    font-size: 80%;
+}
+
+.container {
+    position: relative;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+  }
+
+  .image{
+      height:300px;
+      width: 100%;
+  }
+  
+  .top-right {
+    position: absolute;
+    width: 100%;
+    top: 4px;
+    /* background: rgba(200,225,250,0.5); */
+    text-decoration: none;
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+  
+
+  .bottom-right {
+    position: absolute;
+    width:100%;
+    bottom: 10px;
+    background: rgba(200,200,200, 0.5);
+    text-decoration: none;
+  }
+
+  .home{
+      width: auto;
+      font-size: 50%;
+  }
+  
+.button1{
+    background-color:#49274A;;
+    color: white;
+    margin: none;
+    font-size:100%;
+    padding: 5% 5%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    border-style: none;
+
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    border: 1%;
+}
+.links{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 70%;
+    color:#5e315f;
+}

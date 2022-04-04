@@ -1,0 +1,25 @@
+.image1{
+    width: 100%;
+}
+#about{
+    justify-content: center;
+}
+
+.para1{
+    display: flex;
+    flex-direction: row;
+}
+.para1p{
+    width:80%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.img{
+    width: 20%;
+}
+.img_margin{
+    margin: 10px;
+}
+.para_margin{
+    margin:10px
+}
